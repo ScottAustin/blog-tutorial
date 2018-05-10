@@ -1,5 +1,6 @@
 backend:
-  name: test-repo
+  name: github
+  repo: ScottAustin/blog-tutorial
 
 media_folder: static/assets
 
