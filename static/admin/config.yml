@@ -1,4 +1,4 @@
-templatesbackend:
+backend:
   name: github
   repo: ScottAustin/blog-tutorial
 
