@@ -5,7 +5,7 @@ export default ({ data }) => {
     return (
         <div>
             <h1>{post.frontmatter.title}</h1>
-            <div dangerouslySetInnerHTML={{ __html: post.html }} />
+            <div dangerouslySetInnerHTML={{ __html: post.frontmatter.content }} />
         </div>
     );
 };
@@ -16,6 +16,7 @@ export const query = graphql`
       html
       frontmatter {
         title
+        content
       }
     }
   }
